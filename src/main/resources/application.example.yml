@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: s3upload
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+aws:
+  credentials:
+    access-key: XXXXXXXXXXXXXXXXXXXXXX
+    secret-key: XXXXXXXXXXXXXXXXXXXXXX
+  s3:
+    region: ap-northeast-2
+    bucket: XXXXXXXXXXXXXX
